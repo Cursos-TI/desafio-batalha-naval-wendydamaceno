@@ -2,7 +2,7 @@
 
 int main(){
 
-    //Desafio Nível Novato
+    //Desafio Nível Aventureiro
     printf("\n***BATALHA NAVAL***\n");
 
     int tabuleiro[10][10];
@@ -15,15 +15,15 @@ int main(){
         }
     }
     
-    // Posicionar navio horizontal (linha B, colunas 3 a 5)
-    tabuleiro[1][2] = 3;
-    tabuleiro[1][3] = 3;
-    tabuleiro[1][4] = 3;
+    // Posicionar navio Horizontal
+    tabuleiro[2][1] = 3;
+    tabuleiro[2][2] = 3;
+    tabuleiro[2][3] = 3;
 
-    // Posicionar navio vertical (coluna F, linhas E a G)
-    tabuleiro[4][5] = 3;
-    tabuleiro[5][5] = 3;
-    tabuleiro[6][5] = 3;
+    // Posicionar navio Diagonal
+    tabuleiro[0][9] = 3;
+    tabuleiro[1][8] = 3;
+    tabuleiro[2][7] = 3;   
 
      // Cabeçalho com colunas 1–10
      printf("    ");
